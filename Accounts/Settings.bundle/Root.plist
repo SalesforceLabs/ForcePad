@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>Record Display</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<true/>
+			<key>Key</key>
+			<string>show_empty_fields</string>
+			<key>Title</key>
+			<string>Show Fields with Empty Values</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>News</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>Relevance</string>
+			<key>Key</key>
+			<string>news_sort_by</string>
+			<key>Title</key>
+			<string>Sort News By</string>
+			<key>Titles</key>
+			<array>
+				<string>Relevance</string>
+				<string>Date</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<string>Relevance</string>
+				<string>Date</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Help</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>IASKViewControllerClass</key>
+			<string>SFVFirstRunController</string>
+			<key>IASKViewControllerSelector</key>
+			<string>init</string>
+			<key>Title</key>
+			<string>Tour ForcePad</string>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+		</dict>
+		<dict>
+			<key>IASKViewControllerClass</key>
+			<string>AboutAppViewController</string>
+			<key>IASKViewControllerSelector</key>
+			<string>initWithAboutPage</string>
+			<key>Title</key>
+			<string>About Account Viewer</string>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+		</dict>
+		<dict>
+			<key>IASKViewControllerClass</key>
+			<string>AboutAppViewController</string>
+			<key>IASKViewControllerSelector</key>
+			<string>initWithFAQ</string>
+			<key>Title</key>
+			<string>FAQ</string>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+		</dict>
+		<dict>
+			<key>IASKViewControllerClass</key>
+			<string>AboutAppViewController</string>
+			<key>IASKViewControllerSelector</key>
+			<string>initWithEULA</string>
+			<key>Title</key>
+			<string>EULA</string>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>success.salesforce.com/answers</string>
+			<key>File</key>
+			<string>http://success.salesforce.com/answers</string>
+			<key>Title</key>
+			<string>Ask the Community</string>
+			<key>Type</key>
+			<string>IASKOpenURLSpecifier</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>
