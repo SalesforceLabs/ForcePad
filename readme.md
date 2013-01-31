@@ -4,7 +4,7 @@ ForcePad is a free, unofficial, unsupported, open-source native iPad app from Sa
 
 [![ForcePad is on the App Store!](http://github.com/ForceDotComLabs/ForcePad/raw/master/appstore.png)](http://itunes.apple.com/us/app/forcepad-by-salesforce-labs/id458454196?ls=1&mt=8) &nbsp;&nbsp;&nbsp;&nbsp; [![ForcePad is on the Salesforce Appexchange!](http://github.com/ForceDotComLabs/ForcePad/raw/master/appexchange.png)](http://appexchange.salesforce.com/listingDetail?listingId=a0N300000055lKrEAI)
 
-by Jonathan Hersh ([Email](mailto:jhersh@salesforce.com), [GitHub](https://github.com/jhersh), [Twitter](https://twitter.com/jhersh)) with special thanks to Wiebke and Brian in Salesforce UX, Ciara for graphic design and UX, plus Darrell, Eugene, Clarence, Reid, Mike, Simon, Todd, and Kevin.
+by Jonathan Hersh ([Email](mailto:jon@her.sh), [GitHub](https://github.com/jhersh), [Twitter](https://twitter.com/jhersh)) with special thanks to Wiebke and Brian in Salesforce UX, Ciara for graphic design and UX, plus Darrell, Eugene, Clarence, Reid, Mike, Simon, Todd, and Kevin.
 
 *Author's Note:* Account Viewer (which became Salesforce Viewer, which became Salesforce for iPad, which became ForcePad) was my first iOS app, developed over more than a year, so files can show significant variation in quality, conciseness, structure, taste, texture, color, and aroma. The app has also been known to take you out to a nice sushi dinner and then not call you the next day. - JH
 
