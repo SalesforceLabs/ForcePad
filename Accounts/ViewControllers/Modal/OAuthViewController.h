@@ -29,9 +29,19 @@
 #import "OAuthLoginHostPicker.h"
 #import "OAuthCustomHostCreator.h"
 
-// keys for login
-#define OAuthClientID               @"Your OAuth Key"
-#define OAuthConsumerSecret         @"Your OAuth secret"
+/*
+ * Keys for login
+ *
+ * You can either define them as parameters to the compiler (with the -D option)
+ * or you can define them in a separate file. Do not check this file into Git, though.
+ * The file would look like this:
+ *
+ * #define OAuthClientID           @"Your OAuth Key"
+ * #define OAuthConsumerSecret     @"Your OAuth secret"
+ */
+#if !defined(OAuthClientID) /*Your OAuth key*/ || !defined(OAuthConsumerSecret) /*Your OAuth secret*/
+#import "OAuthKeys.h"
+#endif
 
 @interface OAuthViewController : UIViewController <UIWebViewDelegate, UIPopoverControllerDelegate, 
             OAuthLoginHostPickerDelegate, UINavigationControllerDelegate, OAuthCustomHostCreatorDelegate> {
