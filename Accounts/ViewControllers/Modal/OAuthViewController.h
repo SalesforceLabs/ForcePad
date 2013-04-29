@@ -29,7 +29,11 @@
 #import "OAuthLoginHostPicker.h"
 #import "OAuthCustomHostCreator.h"
 
-// keys for login
+/*
+How to get OAuth ClientID and ConsumerSecret?
+Follow the steps: https://www.salesforce.com/us/developer/docs/api_streaming/Content/code_sample_auth_oauth.htm
+*/
+#error Replace ClientID/ConsumerKey and ConsumerSecret with valid info and comment this line
 #define OAuthClientID               @"Your OAuth Key"
 #define OAuthConsumerSecret         @"Your OAuth secret"
 
